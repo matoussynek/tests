@@ -55,7 +55,6 @@ int delete(const char *text,const char *start,const char* end){
     int firstAfterStart = s+ startLength;
     int e = findPos(text,end,firstAfterStart);
     if(e==-1) return -2;
-    printf("%d\n%d\n",s,e);
     int i =0;
     printf("The modified string is: ");
     while(text[i]!='\0'){
@@ -70,7 +69,6 @@ int delete(const char *text,const char *start,const char* end){
 
 int main(){
     char *text = {"ahoj, jak se mas? ja, diky docela dobre."};
-    printf("%s\n",text);
     char *start = {","};
     char *end  = {","};
     int retVal = delete(text,start,end);
