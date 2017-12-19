@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ClientTest
+comment0.text=\n\ Write\ a\ description\ of\ class\ ClientTest\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=s
+comment1.target=ClientTest(java.net.Socket)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ClientTest\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ main()
+numComments=4
