@@ -22,11 +22,7 @@ import javafx.stage.Stage;
  * @author Matouš
  */
 public class Gametry extends Application {
-    
-    @FXML
-    GridPane grid;
-    @FXML
-    Circle circle;
+
     
     @Override
     public void start(Stage stage) throws Exception {
@@ -34,19 +30,10 @@ public class Gametry extends Application {
         
         Scene scene = new Scene(root);
         
+        stage.setTitle("Rainbow Ride! ♥ v0.1");
         stage.setScene(scene);
         stage.show();
-
-        
-        scene.setOnKeyPressed(new EventHandler<KeyEvent>(){
-            @Override
-            public void handle(KeyEvent event){
-                System.out.println(event.getCode().toString());
-                FXMLDocumentController.move(event);
-            }
-        });
     }
-
     /**
      * @param args the command line arguments
      */
