@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="gameField" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pingpong.FXMLDocumentController">
+   <children>
+      <Rectangle fx:id="player" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" onKeyPressed="#moveP" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Circle fx:id="ball" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="scr" alignment="CENTER" blendMode="OVERLAY" focusTraversable="false" opacity="0.7" text="0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Futura-Normal" size="400.0" />
+         </font>
+      </Label>
+      <Label fx:id="instruction" layoutX="55.0" layoutY="163.0" text="Move: L/R ARROWS Pause: SPACE" textFill="WHITE">
+         <font>
+            <Font name="Futura-Normal" size="53.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
