@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="gameField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flappybird.FXMLDocumentController">
+   <children>
+      <Circle fx:id="bird" fill="#ffb51e" focusTraversable="true" layoutX="20.0" layoutY="20.0" onKeyPressed="#up" radius="20.0" stroke="#ffb51e" strokeType="INSIDE" />
+      <Label fx:id="scoreLabel" layoutX="619.0" layoutY="555.0" text="Score: 0">
+         <font>
+            <Font name="Futura-Normal" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="hsL" layoutY="555.0" text="HS: 0">
+         <font>
+            <Font name="Futura-Normal" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
