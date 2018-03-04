@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#keyPressed" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #bbdefb;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab3.AddWindowController">
+   <children>
+      <Button fx:id="add" layoutX="94.0" layoutY="141.0" mnemonicParsing="false" onAction="#add" text="Add">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <TextField fx:id="nameL" layoutX="94.0" layoutY="29.0" />
+      <TextField fx:id="surnameL" layoutX="94.0" layoutY="61.0" />
+      <Label layoutX="26.0" layoutY="34.0" text="First name:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="66.0" text="Last name:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+      <Button layoutX="176.0" layoutY="141.0" mnemonicParsing="false" onAction="#back" text="Cancel">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <TextField fx:id="birthL" layoutX="94.0" layoutY="95.0" promptText="dd.mm.yyyy" />
+      <Label layoutX="27.0" layoutY="100.0" text="Birth date:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" alignment="CENTER" layoutX="27.0" layoutY="120.0" prefHeight="15.0" prefWidth="273.0" text="Incorrect data!" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="99.0" text="(Optional)">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
