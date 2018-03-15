@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ff60ab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableview.tableViewController">
+   <children>
+      <Button fx:id="addB" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button fx:id="modB" layoutX="64.0" layoutY="14.0" mnemonicParsing="false" onAction="#mod" text="Modify" />
+      <TableView fx:id="t" layoutX="7.0" layoutY="56.0" prefHeight="337.0" prefWidth="586.0" style="-fx-background-color: ffc0cc;" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="96.0" resizable="false" style="-fx-alignment: CENTER;" text="ID" />
+          <TableColumn fx:id="nameCol" prefWidth="191.0" resizable="false" style="-fx-alignment: CENTER-LEFT;" text="Full Name" />
+            <TableColumn fx:id="cityCol" prefWidth="158.0" resizable="false" style="-fx-alignment: CENTER-LEFT;" text="City" />
+            <TableColumn fx:id="imgCol" prefWidth="140.0" resizable="false" style="-fx-alignment: CENTER;" text="Image" />
+        </columns>
+      </TableView>
+      <Button fx:id="removeB" layoutX="130.0" layoutY="14.0" mnemonicParsing="false" onAction="#remove" text="Remove" />
+   </children>
+</AnchorPane>

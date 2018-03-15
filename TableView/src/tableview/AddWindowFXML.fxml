@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: ffc0cc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableview.AddWindowFXMLController">
+   <children>
+      <TextField fx:id="idL" layoutX="89.0" layoutY="34.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="fullNameL" layoutX="89.0" layoutY="70.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="cityL" layoutX="89.0" layoutY="107.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="provinceL" layoutX="89.0" layoutY="141.0" prefHeight="25.0" prefWidth="178.0" />
+      <ChoiceBox fx:id="imageC" layoutX="90.0" layoutY="180.0" prefHeight="25.0" prefWidth="178.0" />
+      <Label layoutX="61.0" layoutY="38.0" text="Id:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="21.0" layoutY="74.0" text="Full Name:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="111.0" text="City:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="145.0" text="Province:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="43.0" layoutY="184.0" text="Image:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="acceptB" defaultButton="true" layoutX="90.0" layoutY="244.0" mnemonicParsing="false" onAction="#edit" prefHeight="25.0" prefWidth="78.0" text="Ok" />
+      <Button fx:id="cancelB" cancelButton="true" layoutX="206.0" layoutY="244.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="61.0" text="Cancel" />
+      <Label fx:id="error" alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="214.0" prefHeight="17.0" prefWidth="235.0" text="Incorrect input" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>
