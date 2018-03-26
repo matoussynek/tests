@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.3.2018, 16:32:22
+    Author     : Matouš
+*/
+.buttype0{
+    -fx-border-insets: 0 0 -1 0, 1 , 1;
+    -fx-background-radius: 0;
+    -fx-background-color: #bdbdbd;
+    -fx-text-fill: #101010;
+    -fx-border-width: 0.2;
+    -fx-border-color: #212121;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 45;
+}
+.buttype1{
+    -fx-border-insets: 0 0 -1 0, 1 , 1;
+    -fx-background-radius: 0;
+    -fx-background-color: #bdbdbd;
+    -fx-text-fill: #101010;
+    -fx-border-width: 0.2;
+    -fx-border-color: #212121;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 35;
+}
+.buttype2{
+    -fx-border-insets: 0 0 -1 0, 1 , 1;
+    -fx-background-radius: 0;
+    -fx-background-color: #ef6c00;
+    -fx-text-fill: #efefef;
+    -fx-border-width: 0.2;
+    -fx-border-color: #212121;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 35;
+}
+.txtbox{
+    -fx-border-insets: 0 0 -1 0, 1 , 1;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 65;
+    -fx-text-fill: #efefef;
+    -fx-background-color: black;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.Beatbox{
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-text-fill: #e6e6fa;
+}
