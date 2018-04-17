@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.4.2018, 9:34:58
+    Author     : Matouš
+*/
+.butt{
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #eeeeee;
+}
+.butt:hover{
+    -fx-border-radius: 4;
+    -fx-border-color: #80cbc4;
+}
+.butt:armed{
+    -fx-background-color: #dddddd;
+    -fx-border-width: 2;
+}
+.text-field{
+    -fx-background-color: #eeeeee;
+    -fx-border-radius: 4;
+    -fx-border-color: #80cbc4;
+}
+.text-field:focused{
+    -fx-background-color: #dddddd;
+}
+.choice-box{
+    -fx-background-color: #eeeeee;
+    -fx-border-radius: 4;
+    -fx-border-color: #80cbc4;
+}
+.choice-box:focused{
+    -fx-background-color: #dddddd;
+}
+.tab-column{
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #dddddd;
+}
+.tab-pan{
+    -fx-background-color: #eeeeee;
+    -fx-border-width: 2;
+    -fx-border-color: #dddddd;
+}
+.pic{
+    -fx-border-color: #dddddd;
+    -fx-border-width: 2;
+}
+.list-view{
+    -fx-background-color: #eeeeee;
+    -fx-border-radius: 4;
+    -fx-border-color: #80cbc4;
+}
+.welButt{
+    -fx-background-color: #dddddd;
+    -fx-border-color: #eeeeee;
+}
+.welButt:hover{
+    -fx-border-radius: 4;
+    -fx-border-color: #80cbc4;
+}
+.welButt:armed{
+    -fx-background-color: #cccccc;
+    -fx-border-width: 2;
+}
