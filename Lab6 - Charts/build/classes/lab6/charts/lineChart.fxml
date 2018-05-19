@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="lab6.charts.LineChartController">
+   <children>
+      <LineChart fx:id="lchart" layoutX="50.0" layoutY="-44.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="20.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
