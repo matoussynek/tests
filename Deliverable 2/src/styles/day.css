@@ -12,7 +12,7 @@ and open the template in the editor.
     -fx-background-color: #eeeeee;
 }
 .toggle-button{
-    -fx-background-color: #eeeeee;
+    -fx-background-color: #e0e0e0;
     -fx-border-radius: 1;
 }
 .toggle-button:selected{
@@ -22,4 +22,35 @@ and open the template in the editor.
 }
 .border-pane{
     -fx-text-fill: black;
+}
+.anchor-pane-left{
+    -fx-background-color:  #e0e0e0;
+}
+.chart-series-line{
+    -fx-stroke: #26c6da;
+    -fx-effect: null;
+    -fx-stroke-width: 4px;
+}
+.chart-plot-background {
+    -fx-background-color: #e0e0e0;
+}
+.chart-title{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.axis-label{
+    -fx-text-fill: black;
+}
+.slider .thumb{
+    -fx-background-color: #26c6da;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 20px;
+}
+.slider .thumb:pressed{
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+}
+.slider .track{
+    -fx-background-color: #e0e0e0;
+    -fx-pref-height: 10px;
 }

@@ -13,19 +13,29 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Matouš
+ * @author Matouš Synek & Manuel Roselló
  */
 public class Deliverable2 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("MainFXML.fxml"));
+        
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("MainFXML.fxml"));
+        Parent root = (Parent) loader.load();
+        MainFXMLController controller = loader.getController();
         
         Scene scene = new Scene(root);
-        MainFXMLController c = new MainFXMLController();
-        c.init(scene);
+        
+        controller.init(stage, scene);
+        
         stage.setScene(scene);
+        stage.setResizable(false);
+        stage.setTitle("Deliverable 2");
         stage.show();
+        
+        stage.setOnCloseRequest(e->{
+            System.exit(0);
+        });
     }
 
     /**
